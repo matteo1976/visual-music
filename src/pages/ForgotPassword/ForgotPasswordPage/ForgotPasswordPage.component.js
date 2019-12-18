@@ -5,8 +5,19 @@ import classes from './ForgotPasswordPage.module.scss';
 
 function ForgotPasswordPage({ setEmail, onFormSubmit }) {
     return (
+        
         <div className={classes.forgotPasswordDiv}>
-            <form className={classes.forgotPasswordForm}>
+            <div className={classes.forgotText}>
+                <div className={classes.title}> 
+                    <h1>Visualize Music</h1>
+                    <h1>a new way</h1>
+                </div>
+
+
+            </div>
+            
+
+             {/* <form className={classes.forgotPasswordForm}>
                 <h1 className={classes.pageTitle}>Forgot Password</h1>
                 <p className={classes.subTitle}>
                     Submit the form to reset your password
@@ -26,8 +37,9 @@ function ForgotPasswordPage({ setEmail, onFormSubmit }) {
                         type="submit"
                         onClick={onFormSubmit}
                     />
-                </div>
-            </form>
+                </div> 
+            </form> */}
+
         </div>
     );
 }
