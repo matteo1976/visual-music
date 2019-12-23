@@ -15,6 +15,7 @@ export const store = createStore(
             useFirestoreForProfile: true,
             attachAuthIsReady: true
         }),
-        reduxFirestore(FBConfig)
+        reduxFirestore(FBConfig),
+        window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
     )
 );

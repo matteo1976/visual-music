@@ -1,0 +1,20 @@
+:root{
+    --urlBackgroundImg:url(../../../assets/loginPages/bg-image-overlay.png)
+}
+
+.container{
+background-image:var(--urlBackgroundImg);
+color: white;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+display: flex;
+flex-flow: row wrap;
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items: center;
+font-size: 2vw;
+line-height: 4em;
+padding-top: 5rem;
+    p{font-size: 1.7vw;}
+}

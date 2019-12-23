@@ -11,7 +11,7 @@ import ResetPassword from './ResetPassword/resetPasswordPage.component';
 export default function AppRouter() {
     return (
         <>
-            <TopNav />{' '}
+             <TopNav />{' '} 
             <Switch>
                 <Route exact path="/" component={LandingPage} />{' '}
                 <Route path="/login" component={Login} />{' '}
