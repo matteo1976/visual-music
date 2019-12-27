@@ -4,7 +4,7 @@ import TopNav from '../components/TopNav/TopNav';
 import AppBrowser from './App/AppBrowser';
 import LandingPage from './LandingPage/LandingPage';
 import Login from './Login/Login';
-import ForgotPassword from './ForgotPassword/ForgotPassword';
+import ForgotPassword from '../components/Login/ForgotPassword/ForgotPassword'
 import Register from './Register/Register';
 import ResetPassword from './ResetPassword/resetPasswordPage.component';
 

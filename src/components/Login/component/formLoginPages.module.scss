@@ -1,0 +1,60 @@
+.formStyle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:white;
+        color:rgba(67, 76, 95, 0.75);
+        flex:1 1 auto;
+        height: 100%;
+        padding:10px;
+        text-align: center;
+        .container{
+            height: 90%;
+            width: 90%;
+            padding: 20px;
+            border: 1px solid rgba(196, 51, 136, 0.75);    
+        }
+
+
+        .pageTitle {
+            font-size: 1.5rem;
+            padding-bottom: 0;
+        }
+
+        .subTitle {
+            font-size: 0.8rem;
+            margin-bottom: 20px;
+        }
+
+        .formGroup {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .formButton{
+            width: 250px;
+            height: 50px;
+            left: 1052px;
+            top: 373px;
+
+            background: rgba(196, 51, 136, 0.75);
+            border: 2px solid rgba(196, 51, 136, 0.75);
+            box-sizing: border-box;
+            border-radius: 41px;
+        }
+
+    };
+
+
+    .forgotPasswordForm {
+        background-color: white;
+        
+        align-self: stretch;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        // width: 500px;
+        border-radius: 10px;
+
+}
+
